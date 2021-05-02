@@ -28,13 +28,13 @@ app.post("/events", (req, res) => {
   }
   try {
     // axios.post("http://localhost:4002/events", event);
-    axios.post("http://moderation-srv:4002/events", event);
+    axios.post("http://moderation-srv:4003/events", event);
   } catch (e) {
     console.log("Could not emit event to query service");
   }
   try {
     // axios.post("http://localhost:4003/events", event);
-    axios.post("http://query-srv:4003/events", event);
+    axios.post("http://query-srv:4002/events", event);
   } catch (e) {
     console.log("Could not emit event to moderation service");
   }
