@@ -8,6 +8,7 @@ metadata:
 spec:
   rules: 
     - host: posts.com
+    # - host: www.blogk8s-oscar.tk 
       http: 
         paths: 
           - path: /posts/create
