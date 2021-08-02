@@ -1,0 +1,6 @@
+No hice bien al poner nombres como auth-service a las imagenes.
+Todas las aplicaciones tendrán un auth-service!!
+Debo renombrarlos en donde esten por un nuevo nombre.Estan en cada deploy y en el skaffold.yaml.
+SOLO ESTAN EN ESAS DOS CARPETAS!!
+Aparte puedo tratar de crear un dominio y no usar el virtual domain.
+Esta todo en esas dos carpetas.Busca como cambiar el nombre a las imagenes,quizas no tenga que volver a subirlas,de ser asi busca como se hacia y hazlo bien.
