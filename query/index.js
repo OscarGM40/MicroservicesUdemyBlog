@@ -6,7 +6,7 @@ const app = express();
 // acuerdate del parseador,o el nuevo o el viejo pero no entiende JSON por defecto
 app.use(express.json());
 app.use(cors());
-
+// aca se puede hacer una promesa que se resuelva en un tiempo aleatorio 
 const posts={};
 // ASI SERÁ EL OBJETO posts
 /* post === {
